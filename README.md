@@ -7,16 +7,20 @@ Spinnaker, opencv2, PZT driver file(For example, the E816 PZT requires "E816_DLL
 
 ### Instructions:
 
-Under the PZT driver file, pzt.h and pzt.c implement the basic functions of PZT, including: connect, initialize, move, and end release.
+Under the PZT driver file, pzt.h and pzt.c implement the basic functions of PZT, including: connection, initialization, movement, and release.
 
-Under "Spinnaker", camera.h and camera.c realize the basic functions of the camera, including: connection, initialization, access to pictures, save pictures and end the release.
+Under "Spinnaker", camera.h and camera.c realize the basic functions of the camera, including: connection, initialization, accessing pictures, saving pictures and release.
 
 ### Start:
 
 MoveSample.cpp
+
 There are three manually adjustable parameters:
+
 'double start_position' represents the initial position of the PZT
+
 'int range' represents the number of PZT moves
+
 'double interval' represents the distance that PZT moves each time.
 
 ### Results:
