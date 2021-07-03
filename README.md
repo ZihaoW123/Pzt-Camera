@@ -24,29 +24,11 @@ Results:
 Photos taken by the camera are saved in the photo folder, such as "photo/1.bmp"
 
 
-@misc{
-
-  Charles2013,
-
-  author = {Zhiyao Yin},
-  
-  title = {Project Title},
-  
-  year = {2021},
-  
-  publisher = {GitHub},
-  
-  journal = {GitHub repository},
-  
-  howpublished = {\url{https://github.com/ZihaoW123/Pzt-Camera/}}
-  
-}
-
 ```bibtex
 @misc{
   PZT_Camera,
   title   = {Attention Is All You Need},
-  author  = {Zhiyao Yin},
+  author  = {Zihao Wang, Zhiyao Yin},
   year    = {2021},
   publisher = {GitHub},
   journal = {GitHub repository},
