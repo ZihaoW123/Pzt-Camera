@@ -1,17 +1,17 @@
-# Pzt-Camera
+### Pzt-Camera
 The PZT is controlled to move at a fixed step length, and a series of images can be obtained by taking pictures with an industrial camera after each movement, which can be used to shoot a series of interference fringes with the same position difference.
 
-Require:
+### Require:
 
 Spinnaker, opencv2, PZT driver file(For example, the E816 PZT requires "E816_DLL.h", "E816_DLL_x64.dll", and "E816_DLL.lib")
 
-Instructions:
+### Instructions:
 
 Under the PZT driver file, pzt.h and pzt.c implement the basic functions of PZT, including: connect, initialize, move, and end release.
 
 Under "Spinnaker", camera.h and camera.c realize the basic functions of the camera, including: connection, initialization, access to pictures, save pictures and end the release.
 
-Start:
+### Start:
 
 MoveSample.cpp
 There are three manually adjustable parameters:
@@ -19,15 +19,17 @@ There are three manually adjustable parameters:
 'int range' represents the number of PZT moves
 'double interval' represents the distance that PZT moves each time.
 
-Results:
+### Results:
 
 Photos taken by the camera are saved in the photo folder, such as "photo/1.bmp"
 
 
-```bibtex
+### Citing code of Pzt-Camera 
+If you find the code useful in your research, please consider citing:
+```
 @misc{
   PZT_Camera,
-  title   = {Attention Is All You Need},
+  title   = {Pzt-Camera},
   author  = {Zihao Wang, Zhiyao Yin},
   year    = {2021},
   publisher = {GitHub},
