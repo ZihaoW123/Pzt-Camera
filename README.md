@@ -17,9 +17,9 @@ MoveSample.cpp
 
 There are three manually adjustable parameters:
 
-'double start_position' represents the initial position of the PZT
+'double start_position' represents the initial position of the PZT.
 
-'int range' represents the number of PZT moves
+'int range' represents the number of PZT moves.
 
 'double interval' represents the distance that PZT moves each time.
 
