@@ -24,11 +24,20 @@ Results:
 Photos taken by the camera are saved in the photo folder, such as "photo/1.bmp"
 
 
-@misc{Charles2013,
+@misc{
+
+  Charles2013,
+
   author = {Zhiyao Yin},
+  
   title = {Project Title},
+  
   year = {2021},
+  
   publisher = {GitHub},
+  
   journal = {GitHub repository},
+  
   howpublished = {\url{https://github.com/ZihaoW123/Pzt-Camera/}}
+  
 }
