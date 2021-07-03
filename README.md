@@ -28,8 +28,8 @@ There are three manually adjustable parameters:
 Photos taken by the camera are saved in the photo folder, such as "photo/1.bmp"
 
 
-### Citing code of Pzt-Camera 
-If you find the code useful in your research, please consider citing:
+### Citing code or Paper of Pzt-Camera
+If you find the Pzt-Camera useful in your research, please consider staring the repository and citing code or paper:
 ```
 @misc{
   PZT_Camera,
@@ -42,9 +42,6 @@ If you find the code useful in your research, please consider citing:
 }
 ```
 
-### Citing papaer
-If you find the code useful in your research, please consider citing:
-```
 @misc{
   PZT_Camera,
   title   = {基于白光扫描干涉的微球形貌缺陷测试研究},
