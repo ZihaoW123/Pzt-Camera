@@ -41,3 +41,14 @@ If you find the code useful in your research, please consider citing:
   howpublished = {\url{https://github.com/ZihaoW123/Pzt-Camera/}}
 }
 ```
+
+### Citing papaer
+If you find the code useful in your research, please consider citing:
+```
+@misc{
+  PZT_Camera,
+  title   = {基于白光扫描干涉的微球形貌缺陷测试研究},
+  author  = {Zhiyao Yin},
+  year    = {2021}
+}
+```
