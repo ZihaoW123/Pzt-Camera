@@ -78,8 +78,6 @@ int main(int argc, char* argv[])
 
        double start_position = 36.4;  // 50-0.068*200 Change  NO.1
 
-       //double start_position = 34.4;   // 630nm ¼¤¹â   NO.2
-        //double start_position = 46.6;
         if (!E816_MOV(ID, sAxis.c_str(), &start_position))
         {
             throw std::runtime_error("Unable to approach initial_position.");
@@ -88,9 +86,6 @@ int main(int argc, char* argv[])
         printf("Pzt move to start position%8.4f\n", start_position);
 
         int range = 400;
-        ////int range = 100;
-        ////double interval = 0.074;
-        //double interval = 0.078;   // 630nm¼¤¹â   NO.2
         double interval = 0.068;   // White Light 60nm   NO.1
         double targetPos = start_position;
          for (int i=0; i<range; i++)
