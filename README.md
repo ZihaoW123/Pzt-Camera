@@ -34,7 +34,7 @@ If you find the Pzt-Camera useful in your research, please consider staring the 
 @misc{
   PZT_Camera,
   title   = {Pzt-Camera},
-  author  = {Zihao Wang, Zhiyao Yin},
+  author  = {Zhiyao Yin, Zihao Wang},
   year    = {2021},
   publisher = {GitHub},
   journal = {GitHub repository},
