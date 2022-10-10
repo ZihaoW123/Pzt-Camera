@@ -31,22 +31,27 @@ Photos taken by the camera are saved in the photo folder, such as "photo/1.bmp"
 ### Citing code or Paper of Pzt-Camera
 If you find the Pzt-Camera useful in your research, please consider staring the repository and citing code or paper:
 ```
-@misc{
-  PZT_Camera,
-  title   = {Pzt-Camera},
-  author  = {Zhiyao Yin, Zihao Wang},
-  year    = {2021},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/ZihaoW123/Pzt-Camera/}}
-}
+Zhiyao Yin, Renhui Guo, Xin Yang, Chengxing Liu, Jianxin Li. Measurement Method for Surface Defects on ICF Capsules Based on White Light Interferometry[J]. Acta Optica Sinica, 2022, 42(10): 1012004
+
+# or
+
+尹智瑶, 郭仁慧, 杨鑫, 刘成兴, 李建欣. 基于白光干涉的ICF靶丸表面缺陷测量方法[J]. 光学学报, 2022, 42(10): 1012004
 ```
 
 ```
-@misc{
-  PZT_Camera,
-  title   = {基于白光扫描干涉的微球形貌缺陷测试研究},
-  author  = {Zhiyao Yin},
-  year    = {2021}
+@article{Guo:21,
+author = {Renhui Guo and Zhiyao Yin and Hang Fu and Cong Wei and Xin Yang and Jianxin Li and Jun Ma},
+journal = {Opt. Express},
+keywords = {Fast Fourier transforms; High numerical aperture optics; Holographic microscopy; Image fusion; Phase recovery; Surface measurements},
+number = {19},
+pages = {30783--30798},
+publisher = {Optica Publishing Group},
+title = {Surface defect measurement of ICF capsules under a limited depth of field},
+volume = {29},
+month = {Sep},
+year = {2021},
+url = {https://opg.optica.org/oe/abstract.cfm?URI=oe-29-19-30783},
+doi = {10.1364/OE.433811},
+abstract = {A surface defect detection device based on null interferometric microscopy (NIM) enables the measurement of surface defects in inertial confinement fusion (ICF) capsules. However, the microscope objective with a large numerical aperture in NIM causes the depth of field (DOF) of the system to be shallow, limiting the field of view (FOV) of the measurement. To expand the measurement FOV, a reconstruction method for the defocused surface defects in the FOV is presented, the angular spectrum diffraction model from the surface to the tilted plane is established, and the phase recovery method of the defocused surface defects is proposed by the theory of angular spectrum diffraction. Both the simulated and experimental results show that the proposed method can achieve the phase recovery of the surface defects in the defocused state and expand the measurement FOV, which improves the measurement accuracy and efficiency of the surface defects of the ICF capsules.},
 }
 ```
